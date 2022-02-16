@@ -53,6 +53,7 @@ io.on('connection', (socket) => {
   // 아두이노에서 데이터를 받는 부분
   socket.on('request', (msg) => {
     temp = msg;
+    io.emit('temp',temp);
     console.log(temp);
   });
   
@@ -96,5 +97,3 @@ io.on('connection', (socket) => {
 server.listen(3000, () => {
   console.log('listening on *:3000');
 });
-
-// connection.end();

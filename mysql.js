@@ -72,5 +72,3 @@ connection.query(sql, function(err, rows, fields){
 // });
   
 connection.end();
-
-exports.connection = connection;
