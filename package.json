@@ -1,0 +1,17 @@
+{
+  "name": "socket-chat-example",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "CJM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mariadb": "^2.5.5",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.4.1"
+  }
+}
